@@ -15,10 +15,10 @@ Page({
     lightChecked: false,
     downChecked: false,
     items: [
-      { name: 'up', value: '可以拜访' },
-      { name: 'sleep', value: '在休息' },
-      { name: 'light', value: '未断电' },
-      { name: 'down', value: '不可拜访' }
+      { name: 'up', value: '小心有人' },
+      { name: 'sleep', value: '黑暗中有人！！！' },
+      { name: 'light', value: '前方安全' },
+      { name: 'down', value: '注意黑暗' }
     ]
   },
 
