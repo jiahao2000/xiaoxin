@@ -1,0 +1,13 @@
+<!--start.wxml-->
+
+<button class="btn1" bindtap="getDataFromOneNet" >
+检查数据(OneNet)</button>
+
+<view class="view-group" style="display: flex;flex-direction: column-reverse">   
+    <view class="{{upChecked?'upwake':'up'}}">小心有人</view>
+    <view class="{{sleepChecked?'sleepwake':'sleep'}}">黑暗中有人！！！</view>
+    <view class="{{lightChecked?'lightwake':'light'}}">前方安全</view>
+    <view class="{{downChecked?'downwake':'down'}}">注意黑暗</view>  
+</view>
+
+<button class="btn2" bindtap="clearColor">清除数据</button>
